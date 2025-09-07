@@ -3,12 +3,70 @@ import Section from "./Section";
 
 const experiences = [
     {
-        role: "Full‑Stack Developer",
-        org: "Freelance",
-        period: "2022 — Present",
+        role: "CTO",
+        org: "Omricon, Addis Ababa, Ethiopia",
+        period: "May 2021 — Present",
         points: [
-            "Built RESTful backends and mobile apps with Spring Boot and Flutter",
-            "Delivered production apps to Play Store with CI and release automation",
+            "Oversee development and rollout of technology for clients, vendors, and partners to improve business outcomes.",
+        ],
+    },
+    {
+        role: "Flutter & Backend Developer",
+        org: "eStota LLC, Addis Ababa, Ethiopia",
+        period: "May 2021 — Present",
+        points: [
+            "Build e‑commerce platform using Spring Boot and Flutter.",
+            "Backend: Node.js; Database: MySQL; Cache: Redis; Realtime: Socket.IO.",
+            "Deploy on DigitalOcean with Nginx reverse proxy.",
+        ],
+    },
+    {
+        role: "Android Developer & Project Manager",
+        org: "Metahu Addis, Addis Ababa, Ethiopia",
+        period: "Nov 2021 — Present",
+        points: [
+            "Maintain and develop food delivery app (Kotlin).",
+            "Manage project delivery and Play Store releases.",
+        ],
+    },
+    {
+        role: "Flutter Developer",
+        org: "Maykerah, Addis Ababa, Ethiopia",
+        period: "Feb 2022 — Apr 2022",
+        points: [
+            "Develop e‑commerce platform with Flutter.",
+        ],
+    },
+    {
+        role: "Android Developer",
+        org: "IFlex, Addis Ababa, Ethiopia",
+        period: "Dec 2020 — Jan 2021",
+        points: [
+            "Modify existing codebase, test, debug, add features, and publish updates to Play Store.",
+        ],
+    },
+    {
+        role: "Back‑end Developer",
+        org: "Meba, Addis Ababa, Ethiopia",
+        period: "Apr 2021 — May 2021",
+        points: [
+            "Build e‑commerce backend services.",
+        ],
+    },
+    {
+        role: "Back‑end Developer",
+        org: "SwiftOlio, Addis Ababa, Ethiopia",
+        period: "Jul 2021 — Sep 2021",
+        points: [
+            "Build service provider platform using Node.js, MySQL, and Socket.IO for realtime.",
+        ],
+    },
+    {
+        role: "Flutter Developer",
+        org: "GenesisFishHouse, Addis Ababa, Ethiopia",
+        period: "Jul 2021 — Sep 2021",
+        points: [
+            "Develop, test, add features, and publish the app to Play Store.",
         ],
     },
 ];

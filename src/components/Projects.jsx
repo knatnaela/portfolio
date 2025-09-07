@@ -16,6 +16,12 @@ const projects = [
         link: "https://play.google.com/store/apps/details?id=metahuCustomer.app&pcampaignid=web_share",
     },
     {
+        title: "Location Based ADS",
+        description:
+            "Platform for discovering nearby restaurants, groceries, and more based on user location.",
+        stack: "Flutter · Node.js · MySQL · Redis · Socket.IO",
+    },
+    {
         title: "LakiRemit",
         description:
             "Cross‑border remittance app built with Flutter to simplify money transfers.",

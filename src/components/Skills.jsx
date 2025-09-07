@@ -2,14 +2,20 @@ import React from "react";
 import Section from "./Section";
 
 const skills = [
-    "Spring Boot",
+    "JavaScript (ES6, Node.js)",
+    "TypeScript",
     "Flutter",
-    "Node.js",
-    "Android",
+    "Android (Java & Kotlin)",
+    "Dart",
+    "HTML & CSS",
+    "Git",
+    "CI / CD",
+    "Cloud (GCP, AWS)",
+    "MySQL",
     "PostgreSQL",
-    "MongoDB",
+    "Redis",
     "REST APIs",
-    "CI/CD",
+    "Socket.IO",
 ];
 
 export default function Skills() {
