@@ -8,6 +8,7 @@ const experiences = [
         period: "Nov 2024 — Dec 2024",
         points: [
             "Postagic allows you to send physical postcards and letters as easily as uploading a picture.",
+            "Refactored existing codebase and added new features to improve stability and UX.",
         ],
     },
     {
@@ -16,6 +17,7 @@ const experiences = [
         period: "Aug 2024 — Sep 2024",
         points: [
             "Collaborative transaction management platform enabling secure communication and document workflows.",
+            "Refactored modules and shipped new features to enhance collaboration flows.",
         ],
     },
     {
