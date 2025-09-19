@@ -5,7 +5,7 @@ const experiences = [
     {
         role: "Flutter Developer",
         org: "Postagic",
-        period: "2 months in 2024",
+        period: "Nov 2024 — Dec 2024",
         points: [
             "Postagic allows you to send physical postcards and letters as easily as uploading a picture.",
         ],
@@ -13,7 +13,7 @@ const experiences = [
     {
         role: "Flutter Developer",
         org: "Goby Homes",
-        period: "2 months in 2024",
+        period: "Aug 2024 — Sep 2024",
         points: [
             "Collaborative transaction management platform enabling secure communication and document workflows.",
         ],
@@ -39,7 +39,7 @@ const experiences = [
     {
         role: "Android Developer & Project Manager",
         org: "Metahu Addis, Addis Ababa, Ethiopia",
-        period: "Nov 2021 — Present",
+        period: "Nov 2021 — Nov 2023",
         points: [
             "Maintain and develop food delivery app (Kotlin).",
             "Manage project delivery and Play Store releases.",
