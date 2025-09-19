@@ -5,6 +5,7 @@ const skills = [
     "JavaScript (ES6, Node.js)",
     "TypeScript",
     "Flutter",
+    "Spring Boot",
     "Android (Java & Kotlin)",
     "Dart",
     "HTML & CSS",
