@@ -3,6 +3,22 @@ import Section from "./Section";
 
 const experiences = [
     {
+        role: "Flutter Developer",
+        org: "Postagic",
+        period: "2 months in 2024",
+        points: [
+            "Postagic allows you to send physical postcards and letters as easily as uploading a picture.",
+        ],
+    },
+    {
+        role: "Flutter Developer",
+        org: "Goby Homes",
+        period: "2 months in 2024",
+        points: [
+            "Collaborative transaction management platform enabling secure communication and document workflows.",
+        ],
+    },
+    {
         role: "CTO",
         org: "Omricon, Addis Ababa, Ethiopia",
         period: "May 2021 — Present",

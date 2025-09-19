@@ -3,6 +3,20 @@ import Section from "./Section";
 
 const projects = [
     {
+        title: "Postagic",
+        description:
+            "Send physical postcards and letters as easily as uploading a picture.",
+        stack: "Flutter",
+        link: "https://play.google.com/store/apps/details?id=com.postagic.app&hl=en",
+    },
+    {
+        title: "Goby Homes",
+        description:
+            "Collaborative transaction management platform for secure communication and document workflows.",
+        stack: "Flutter",
+        link: "https://play.google.com/store/apps/details?id=com.gobyhomes.app&hl=en",
+    },
+    {
         title: "GymLive",
         description:
             "A social platform for gym goers to connect, share workouts, and stay motivated.",
