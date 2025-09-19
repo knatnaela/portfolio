@@ -3,6 +3,13 @@ import Section from "./Section";
 
 const projects = [
     {
+        title: "YeneCard",
+        description:
+            "Secure, efficient, user‑friendly platform for online transactions via virtual credit cards.",
+        stack: "Flutter",
+        link: "https://play.google.com/store/apps/details?id=com.yenecard.yenecard&hl=en",
+    },
+    {
         title: "Postagic",
         description:
             "Send physical postcards and letters as easily as uploading a picture.",

@@ -21,6 +21,22 @@ const experiences = [
         ],
     },
     {
+        role: "Full‑Stack Engineer",
+        org: "LakiPay Company",
+        period: "Sep 2024 — Present",
+        points: [
+            "Built the app end‑to‑end: Flutter frontend and Spring Boot backend.",
+        ],
+    },
+    {
+        role: "Flutter Developer",
+        org: "YeneCard",
+        period: "Jan 2025 — Present",
+        points: [
+            "Modify existing codebase, test, debug, add features, and publish updates to Play Store.",
+        ],
+    },
+    {
         role: "CTO",
         org: "Omricon, Addis Ababa, Ethiopia",
         period: "May 2021 — Present",
@@ -36,14 +52,6 @@ const experiences = [
             "Build e‑commerce platform using Spring Boot and Flutter.",
             "Backend: Node.js; Database: MySQL; Cache: Redis; Realtime: Socket.IO.",
             "Deploy on DigitalOcean with Nginx reverse proxy.",
-        ],
-    },
-    {
-        role: "Founder / Full‑Stack Engineer",
-        org: "LakiPay Company",
-        period: "Sep 2024 — Present",
-        points: [
-            "Built the app end‑to‑end: Flutter frontend and Spring Boot backend.",
         ],
     },
     {
@@ -102,7 +110,7 @@ export default function Experience() {
         <Section id="experience" subtitle="Where I’ve worked" title="Experience">
             <ol className="relative border-s border-gray-200 dark:border-gray-800">
                 {experiences.map((e) => (
-                    <li key={e.role} className="ms-6 mb-10">
+                    <li key={e.role + e.org} className="ms-6 mb-10">
                         <span className="absolute -start-3 flex h-6 w-6 items-center justify-center rounded-full bg-indigo-600 text-white text-xs">✓</span>
                         <h3 className="font-semibold">
                             {e.role} · <span className="text-gray-600 dark:text-gray-300">{e.org}</span>
