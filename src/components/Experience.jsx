@@ -39,6 +39,14 @@ const experiences = [
         ],
     },
     {
+        role: "Founder / Full‑Stack Engineer",
+        org: "LakiPay Company",
+        period: "Sep 2024 — Present",
+        points: [
+            "Built the app end‑to‑end: Flutter frontend and Spring Boot backend.",
+        ],
+    },
+    {
         role: "Android Developer & Project Manager",
         org: "Metahu Addis, Addis Ababa, Ethiopia",
         period: "Nov 2021 — Nov 2023",

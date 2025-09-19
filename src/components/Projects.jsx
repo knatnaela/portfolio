@@ -38,8 +38,8 @@ const projects = [
     {
         title: "LakiRemit",
         description:
-            "Cross‑border remittance app built with Flutter to simplify money transfers.",
-        stack: "Flutter",
+            "Cross‑border remittance app. Built end‑to‑end: Flutter frontend and Spring Boot backend.",
+        stack: "Flutter · Spring Boot",
     },
     {
         title: "BessaPay",
