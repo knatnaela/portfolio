@@ -8,6 +8,7 @@ const projects = [
         description:
             "Secure, efficient, user‑friendly platform for online transactions via virtual credit cards.",
         stack: "Flutter",
+        tags: ["FinTech", "Payments"],
         link: "https://play.google.com/store/apps/details?id=com.yenecard.yenecard&hl=en",
         images: [
             "https://play-lh.googleusercontent.com/tfU3HtUuSxCwjWH9JI5-HvMEB38ZFwGJ4SliadAHP0UeC-eg9U1Lt8lnjWvQChg5kB0=w1052-h592-rw",
@@ -20,6 +21,7 @@ const projects = [
         description:
             "Send physical postcards and letters as easily as uploading a picture.",
         stack: "Flutter",
+        tags: ["Social", "Messaging"],
         link: "https://play.google.com/store/apps/details?id=com.postagic.app&hl=en",
         images: [
             "https://play-lh.googleusercontent.com/Xnkn3nEN5RN93CmcMmhb2TJk9d3tWaGwpoNilt3HSU-rv9Yo9xWOoZdU2OcE4kZN0g=w5120-h2880-rw",
@@ -32,6 +34,7 @@ const projects = [
         description:
             "Collaborative transaction management platform for secure communication and document workflows.",
         stack: "Flutter",
+        tags: ["Real Estate", "SaaS"],
         link: "https://play.google.com/store/apps/details?id=com.gobyhomes.app&hl=en",
         images: [
             "https://play-lh.googleusercontent.com/Spb2kFq5484qwtrrUPnNn2GGM1WkSjPMPs5ASoqPFo8WxmnLoe-3TcYrfu-jctX-Fg=w5120-h2880-rw",
@@ -44,6 +47,7 @@ const projects = [
         description:
             "A social platform for gym goers to connect, share workouts, and stay motivated.",
         stack: "Flutter",
+        tags: ["Social", "Subscriptions"],
         link: "https://play.google.com/store/apps/details?id=app.gymlive.mobile.gymlive.prod&pcampaignid=web_share",
         images: [
             "https://play-lh.googleusercontent.com/cPMH94FBAQ_merXFmhHCDqv1R5062lsZDUcmAb53RzRKHt5uQt3oNYcJ8ZL_Lw8szks=w5120-h2880-rw",
@@ -55,6 +59,7 @@ const projects = [
         title: "Metahu Delivery",
         description: "A food delivery service app for quick and convenient ordering.",
         stack: "Flutter",
+        tags: ["Delivery", "Marketplace"],
         link: "https://play.google.com/store/apps/details?id=metahuCustomer.app&pcampaignid=web_share",
         images: [
             "https://play-lh.googleusercontent.com/WESuN1N-yLOFfQXBZV32WH0tksRa3wOgylzHwjUzC9K7QLsAQb16kF5XnlzBz_UeY-s=w5120-h2880-rw",
@@ -63,16 +68,22 @@ const projects = [
         ],
     },
     {
-        title: "Location Based ADS",
-        description:
-            "Platform for discovering nearby restaurants, groceries, and more based on user location.",
-        stack: "Flutter · Node.js · MySQL · Redis · Socket.IO",
-    },
-    {
         title: "LakiRemit",
         description:
             "Cross‑border remittance app. Built end‑to‑end: Flutter frontend and Spring Boot backend.",
         stack: "Flutter · Spring Boot",
+        tags: ["FinTech", "Remittance"],
+        images: [
+            "https://play-lh.googleusercontent.com/rjnWPdukbbBeupXXR2azBXM1dsAzg4gerzv6mVCaxV7ueRzMiifkNuFeEYDq1dw639Om8kab5DvuRGzfo18_9g=w1052-h592-rw",
+            "https://play-lh.googleusercontent.com/AWtmn5YFw4F5gidWfUJnVnQuL1T_9XugNpD-GWTx_hs7hO6lxaIBY0gUp1cFOxb2UqTiXsxzmCP6tKnh3ABlXg=w1052-h592-rw",
+            "https://play-lh.googleusercontent.com/JSS05fLRu6eFDCFy1XFUhJalafQKQ2eNv9gfOXAwnw7tb7R4rf6XqgVAaAMaH6mPCc9jbi9Zjg6YCLTlQ_fuzQ=w1052-h592-rw",
+        ],
+    },
+    {
+        title: "Location Based ADS",
+        description:
+            "Platform for discovering nearby restaurants, groceries, and more based on user location.",
+        stack: "Flutter · Node.js · MySQL · Redis · Socket.IO",
     },
     {
         title: "BessaPay",
@@ -107,6 +118,15 @@ export default function Projects() {
                                     {p.stack}
                                 </span>
                             </div>
+                            {p.tags && p.tags.length > 0 && (
+                                <div className="mt-2 flex flex-wrap gap-2">
+                                    {p.tags.map((t) => (
+                                        <span key={t} className="text-[10px] uppercase tracking-wider rounded-full border border-gray-200 dark:border-gray-800 px-2 py-0.5 text-gray-600 dark:text-gray-300">
+                                            {t}
+                                        </span>
+                                    ))}
+                                </div>
+                            )}
                             <p className="mt-2 text-sm text-gray-600 dark:text-gray-300">{p.description}</p>
                             <div className="mt-4 text-sm font-medium text-indigo-600 dark:text-indigo-400 opacity-0 group-hover:opacity-100 transition-opacity">
                                 {p.link ? "Open" : "In development"}
@@ -118,5 +138,3 @@ export default function Projects() {
         </Section>
     );
 }
-
-
