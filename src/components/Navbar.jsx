@@ -89,18 +89,18 @@ export default function Navbar() {
         <AnimatePresence>
           {isOpen && (
             <motion.div
-              initial={{ height: 0, opacity: 0 }}
-              animate={{ height: "auto", opacity: 1 }}
-              exit={{ height: 0, opacity: 0 }}
-              className="overflow-hidden sm:hidden"
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="absolute left-0 right-0 top-full border-b border-gray-200 dark:border-gray-800 bg-white/95 dark:bg-gray-900/95 backdrop-blur-md shadow-lg sm:hidden px-6 py-4"
             >
-              <div className="flex flex-col gap-4 py-4 border-t border-gray-200 dark:border-gray-800 mt-4">
+              <div className="flex flex-col gap-4">
                 {links.map((l) => (
                   <a
                     key={l.href}
                     href={l.href}
                     onClick={() => setIsOpen(false)}
-                    className="text-sm font-medium hover:text-indigo-500 transition-colors"
+                    className="text-base font-medium hover:text-indigo-500 transition-colors"
                   >
                     {l.label}
                   </a>
