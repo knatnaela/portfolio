@@ -3,7 +3,7 @@ import Section from "./Section";
 import { 
   SiJavascript, SiTypescript, SiFlutter, SiSpringboot, SiAndroid, 
   SiDart, SiHtml5, SiCss3, SiGit, SiGithubactions, 
-  SiGooglecloud, SiAmazonaws, SiMysql, SiPostgresql, 
+  SiGooglecloud, SiAmazon, SiMysql, SiPostgresql, 
   SiRedis, SiSocketdotio 
 } from "react-icons/si";
 import { FiServer } from "react-icons/fi";
@@ -18,7 +18,7 @@ const skills = [
   { name: "HTML & CSS", icon: <div className="flex gap-1"><SiHtml5 className="text-orange-500" /><SiCss3 className="text-blue-500" /></div> },
   { name: "Git", icon: <SiGit className="text-red-500" /> },
   { name: "CI/CD", icon: <SiGithubactions className="text-blue-500" /> },
-  { name: "GCP & AWS", icon: <div className="flex gap-1"><SiGooglecloud className="text-blue-400" /><SiAmazonaws className="text-orange-400" /></div> },
+  { name: "GCP & AWS", icon: <div className="flex gap-1"><SiGooglecloud className="text-blue-400" /><SiAmazon className="text-orange-400" /></div> },
   { name: "MySQL", icon: <SiMysql className="text-blue-500" /> },
   { name: "PostgreSQL", icon: <SiPostgresql className="text-blue-400" /> },
   { name: "Redis", icon: <SiRedis className="text-red-500" /> },
