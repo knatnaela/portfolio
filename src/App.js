@@ -5,7 +5,6 @@ import Badges from "./components/Badges";
 import Services from "./components/Services";
 import Testimonials from "./components/Testimonials";
 import Projects from "./components/Projects";
-import Experience from "./components/Experience";
 import Skills from "./components/Skills";
 import CTA from "./components/CTA";
 import Contact from "./components/Contact";
@@ -26,7 +25,6 @@ export default function App() {
       <Badges />
       <Services />
       <Projects />
-      <Experience />
       <Skills />
       <Testimonials />
       <CTA />
