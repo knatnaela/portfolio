@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://knatnaela.github.io/portfolio/sitemap.xml
+
+
